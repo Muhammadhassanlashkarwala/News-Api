@@ -12,6 +12,10 @@ const news = await newsUrl.json()
 
 
  for (let item of news.results) {
+
+
+
+    
     newsPaper.innerHTML = newsPaper.innerHTML + `
     <div class="d-flex">
     <img class="w-20 mt-4 d-flex" src="${item.image_url}" alt="">
